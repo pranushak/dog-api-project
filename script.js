@@ -2,7 +2,7 @@ const breedsContainer = document.getElementById("breeds-container");
 
 fetch("https://api.thedogapi.com/v1/breeds", {
   headers: {
-    "x-api-key": ""
+    "x-api-key": "live_1thIqxL7uHMf7gK6B0PX1dXm6nOnu0QLbavE4Vce2AVFtAliJ4CZ0hp76a5IwAOU"
   }
 })
   .then(response => response.json())
